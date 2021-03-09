@@ -1,0 +1,205 @@
+/* Display ALL VERSIOn */
+/* Navbar */
+.navbar-brand {
+    font-family: 'Bungee';
+    font-size: 32px;
+}
+
+.jumbotron {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 540px;
+    margin-left: -300px;
+    
+    
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 300px;
+    font-weight: 200;
+    font-size: 32px ;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+   
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+.info-panel {
+   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+   border-radius: 12px;
+   margin-top: -100px ;
+   background-color: white;
+   opacity: 0.9;
+   padding: 30px;
+   margin-bottom: 50px;
+
+}
+
+.info-panel img {
+    /* width: 80px; */
+    /* height: 80px; */
+    /* margin-right: 20px; */
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p {
+    margin-top: -5px;
+    font-size: 14px;
+    color: #140f0f;
+    font-weight: 200;
+}
+
+/* Working space */
+/* working space  */
+.workingspace {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.workingspace img {
+    width: 350px;
+    border-radius: 40px;
+}
+
+.workingspace h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.workingspace h3 span {
+    font-weight: 500;
+}
+
+.workingspace p {
+    font-size: 18px;
+    color: #ACACAC;
+    font-weight: 200;
+    margin : 30px 0;
+
+}
+
+.workingspace p span {
+    font-style: italic;
+}
+
+/* End Workingspace */
+
+.photos .kotak {
+    border-radius: 30px;
+    box-sizing: border-box;
+    
+}
+
+
+
+ /* Gallery  */
+
+ .photo-gallery {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+
+  .footer {
+    margin-top: 100px;
+}
+  
+  
+
+
+ /* End Gallery */
+
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* DEKSTOP VERSION */
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .navbar-brand,.nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase ;
+        margin-right: 30px;
+    } 
+
+    .nav-link:hover::after{
+         content: '';
+         display: block;
+         border-bottom: 3px solid rgb(49, 49, 177);
+         width: 50%;
+         margin: auto;
+         padding-bottom: 5px;
+         margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        height: 820px;
+        margin-top: -150px;
+    }
+
+    .jumbotron .display-4 {
+        color: white;
+        margin-top: 170px;
+        margin-left: 170px;
+        font-weight: 200;
+        font-size: 42px;
+
+    }
+ }
